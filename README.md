@@ -1,67 +1,55 @@
-## MagnaTech Ticket SLA Compliance Analysis
+## MagnaTech SLA Performance Analysis
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Data Source](#data-source)
-- [Tools](#tools)
-- [Data Cleaning & Preparation](#data-cleaning&preparation)
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-(eda))
-- [Data Analysis](#data-analysis)
-- [Results](#results)
-- [Recommendations](#recommendations)
+### Business Overview
+MagnaTech is a fictional technology services company that manages a centralized support desk responsible for handling customer and internal service tickets across multiple channels. The support team operates under defined Service Level Agreements (SLAs) that require tickets to receive timely responses and resolution.
 
-### Overview
-This analysis showcases operational performance reporting for MagnaTech, a technology services organization managing customer support under defined SLA targets.
-Using 2,312 ticket records from January to December 2023, the analysis evaluates response time SLA compliance. The goal is to assess whether SLA adherence is operationally stable, where performance variability exists, and how workload may influence compliance outcomes.
+Maintaining high SLA compliance is vital to ensure operational reliability, maintain customer trust, and manage internal service efficiency.
 
-Key Metrics for evaluation:
-- Overall compliance health
-- Agent-level performance distribution
-- Monthly stability and workload impact
+This analysis evaluates ticket performance using 2,312 support ticket processes during the analysis period. The dataset was cleaned and aggregated using SQL, and visualised in Tableau to simulate how operational teams assess SLA performance and service quality.
 
-### Executive Summary
+#### The Problem:
+As ticket volume grows, MagnaTech must ensure that operational performance remains consistent across agents, ticket priorities, and time periods. The Head of Operations requires a structured analysis to identify emerging performance risks or opportunities for process improvement.
 
-- Total tickets analyzed: 2,312
-- Average SLA compliance: 96.5%
-- Average customer satisfaction: 3.5/5
+#### Key Metrics:
+- Is SLA performance consistent across agents?
+- Are certain ticket priorities more prone to compliance?
+- Does workload volume influence SLA compliance?
+- Are operational metrics aligned with customer satisfaction?
 
-MagnaTech maintains a high SLA compliance of 96.5%, indicating strong operational discipline. However, a 3.5/5 customer satisfaction rating suggests that timely resolution alone may not drive customer experience outcomes.
-#### Dashboard Title
-## Embed dashboard
+### Analysis Performed
+To evaluate SLA performance, analytical views were created using SQL and visualised through Tableau.
+- Agent performance analysis: determines whether workload distribution affects performance and identifies top and lower performing agents.
+- Priority-based SLA analysis: evaluates whether the support system effectively prioritizes urgent tickets.
+- Monthly SLA trend analysis: monitors whether performance fluctuations correspond with workload changes over time.
 
+### Insights Discovered
 
-### Data Source
+#### Key Insights:
+- Total Tickets Analyzed: 2,312
+- Average SLA Compliance: 96.5%
+- Average Customer Satisfaction: 3.5 out of 5
 
+*Dashboard image to be uploaded*
 
+| Metrics | Insight |
+| ------- | ------- |
+| Compliance by Priority | Insight shows high-priority tickets at 96.7% compliance, followed by low-priority at 96.6%, and medium-priority at 95.8%. This shows that high-priority tickets are handled most effectively, while medium-priority tickets show slightly weaker compliance than the others. | 
+| Compliance by Agent | Insight shows compliance falls within a narrow range of 95.5% - 97.2%, indicating generally consistent operational performance across the support team. Sheela achieved the highest compliance (97.2%) while handling one of the largest ticket volumes, suggesting strong efficiency under workload pressure. Nicola (95.6%) and Heather (95.5%) recorded the lowest compliance rates, with a relatively small difference between the two. |
+| Monthly Compliance vs Workload | The insight shows an early-year volatility. SLA compliance dipped below 95% during the early months (February, April, May) of the year, having 94.9%, 94.7%, 94.1% compliance, respectively. The line chart shows performance stabilizing significantly in the second half of the year, reaching 98.2% in December. May recorded the lowest compliance (94.1%) with a high ticket volume (219 tickets). This suggests that spikes in workload may place pressure on response times. |
+| Compliance vs Customer Satisfaction | Despite a strong compliance average of 96.5%, customer satisfaction averages 3.5 out of 5. This indicates that meeting response-time SLAs alone may not fully determine/improve customer experience outcomes. |
 
-
-### Tools
-
-
-
-
-### Data Cleaning & Preparation
-
-
-
-
-### Exploratory Data Analysis (EDA)
-
-
-
-
-### Data Analysis 
-
-
-
-
-### Results
-
-
-
+### Business Implication
+First, MagnaTech's support operations demonstrate strong SLA discipline, and the narrow performance range among agents indicates that operational procedures and processes are generally standardized and effective. However, workload fluctuation can introduce short-term volatility, especially during higher ticket volume periods. Most importantly, the gap between compliance and customer satisfaction suggests that service quality beyond response speed may influence customer perception.
 
 ### Recommendations
+- Monitor agent workload distribution to maintain consistent SLA performance during high-volume periods.
+- Review triage processes and workflow prioritisation to ensure balanced performance across ticket types.
+- Incorporate additional performance indicators to better understand satisfaction outcomes.
+- Implement multi-year performance tracking to determine whether early-year volatility observed reflects a seasonal pattern or operational transitions.
 
+### Tools
+- MySQL: Data cleaning, aggregations, and exploratory data analysis (EDA).
+- Tableau: Dashboard development and visualisation.
 
-
+*Checkout Analytical Skills Demonstrated(LINK)* 
 
