@@ -1,6 +1,6 @@
-## MagnaTech SLA Performance Analysis
+# MagnaTech SLA Performance Analysis
 
-### Business Overview
+## Business Overview
 MagnaTech is a fictional technology services company that manages a centralized support desk responsible for handling customer and internal service tickets across multiple channels. The support team operates under defined Service Level Agreements (SLAs) that require tickets to receive timely responses and resolution.
 
 Maintaining high SLA compliance is vital to ensure operational reliability, maintain customer trust, and manage internal service efficiency.
@@ -16,13 +16,13 @@ As ticket volume grows, MagnaTech must ensure that operational performance remai
 - Does workload volume influence SLA compliance?
 - Are operational metrics aligned with customer satisfaction?
 
-### Analysis Performed
+## Analysis Performed
 To evaluate SLA performance, analytical views were created using SQL and visualised through Tableau.
 - Agent performance analysis: determines whether workload distribution affects performance and identifies top and lower performing agents.
 - Priority-based SLA analysis: evaluates whether the support system effectively prioritizes urgent tickets.
 - Monthly SLA trend analysis: monitors whether performance fluctuations correspond with workload changes over time.
 
-### Insights Discovered
+## Insights Discovered
 
 #### Key Insights:
 - Total Tickets Analyzed: 2,312
@@ -38,16 +38,16 @@ To evaluate SLA performance, analytical views were created using SQL and visuali
 | Monthly Compliance vs Workload | The insight shows an early-year volatility. SLA compliance dipped below 95% during the early months (February, April, May) of the year, having 94.9%, 94.7%, 94.1% compliance, respectively. The line chart shows performance stabilizing significantly in the second half of the year, reaching 98.2% in December. May recorded the lowest compliance (94.1%) with a high ticket volume (219 tickets). This suggests that spikes in workload may place pressure on response times. |
 | Compliance vs Customer Satisfaction | Despite a strong compliance average of 96.5%, customer satisfaction averages 3.5 out of 5. This indicates that meeting response-time SLAs alone may not fully determine/improve customer experience outcomes. |
 
-### Business Implication
+## Business Implication
 First, MagnaTech's support operations demonstrate strong SLA discipline, and the narrow performance range among agents indicates that operational procedures and processes are generally standardized and effective. However, workload fluctuation can introduce short-term volatility, especially during higher ticket volume periods. Most importantly, the gap between compliance and customer satisfaction suggests that service quality beyond response speed may influence customer perception.
 
-### Recommendations
+## Recommendations
 - Monitor agent workload distribution to maintain consistent SLA performance during high-volume periods.
 - Review triage processes and workflow prioritisation to ensure balanced performance across ticket types.
 - Incorporate additional performance indicators to better understand satisfaction outcomes.
 - Implement multi-year performance tracking to determine whether early-year volatility observed reflects a seasonal pattern or operational transitions.
 
-### Tools
+## Tools
 - MySQL: Data cleaning, aggregations, and exploratory data analysis (EDA).
 - Tableau: Dashboard development and visualisation.
 
