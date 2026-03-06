@@ -35,6 +35,8 @@ Exploratory analysis was conducted and analytical views created using MySQL. Key
 
 *Dashboard image to be uploaded*
 
+[MagnaTech SLA Dashboard](https://github.com/chisom-m-ofoma/SLA-Compliance-Analysis/issues/1#issue-4034007037)
+
 | Metrics | Insight |
 | ------- | ------- |
 | Compliance by Priority | Insight shows high-priority tickets at 96.7% compliance, followed by low-priority at 96.6%, and medium-priority at 95.8%. This shows that high-priority tickets are handled most effectively, while medium-priority tickets show slightly weaker compliance than the others. | 
